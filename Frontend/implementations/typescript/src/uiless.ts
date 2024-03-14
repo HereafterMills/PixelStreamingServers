@@ -7,15 +7,7 @@ document.body.onload = function() {
 	// Logger.SetLoggerVerbosity(10);
 
 	// Create a config object
-	const config = new Config({
-		initialSettings: {
-			AutoPlayVideo: true,
-			AutoConnect: true,
-			ss: "ws://localhost:80",
-			StartVideoMuted: true,
-			WaitForStreamer: true,
-		}
-	});
+	const config = new Config({ useUrlParams: true });
 
 	// Create a PixelStreaming instance and attach the video element to an existing parent div
 	const pixelStreaming = new PixelStreaming(config, { videoElementParent: document.getElementById("videoParentElement")});

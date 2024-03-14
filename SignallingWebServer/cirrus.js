@@ -58,6 +58,8 @@ if (config.UseHTTPS) {
 	};
 
 	var https = require('https').Server(options, app);
+}else{
+	const https = require('https');
 }
 
 //If not using authetication then just move on to the next function/middleware
