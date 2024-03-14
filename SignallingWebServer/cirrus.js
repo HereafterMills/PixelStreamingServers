@@ -905,7 +905,26 @@ function onPlayerDisconnected(playerId) {
 	sendPlayersCount();
 	sendPlayerDisconnectedToFrontend();
 	sendPlayerDisconnectedToMatchmaker();
+	hereafter_checkStopServer()
 }
+
+// Hereafter custom script here
+
+function hereafter_checkStopServer(){
+	if (playerCount == 0){
+		const  url = "https://lbvi7tz7bhqte3hswg6h3xlw5i0xljin.lambda-url.ap-south-1.on.aws/";
+        https.get(url, (res) => {
+            console.log(`statusCode: ${res.statusCode}`);
+            
+            res.on('data', (d) => {
+                process.stdout.write(d);
+            });
+
+        }).on('error', (e) => {
+            console.error(e);
+        });	}
+}
+
 
 playerMessageHandlers.set('subscribe', onPlayerMessageSubscribe);
 playerMessageHandlers.set('unsubscribe', onPlayerMessageUnsubscribe);

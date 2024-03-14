@@ -5,7 +5,7 @@
 	"UseAuthentication": false,
 	"LogToFile": true,
 	"LogVerbose": true,
-	"HomepageFile": "player.html",
+	"HomepageFile": "uiless.html",
 	"AdditionalRoutes": {},
 	"EnableWebserver": true,
 	"MatchmakerAddress": "",
