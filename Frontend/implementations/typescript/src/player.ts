@@ -3,10 +3,10 @@
 import { Config, PixelStreaming } from '@epicgames-ps/lib-pixelstreamingfrontend-ue5.3';
 import { Application, PixelStreamingApplicationStyle } from '@epicgames-ps/lib-pixelstreamingfrontend-ui-ue5.3';
 const PixelStreamingApplicationStyles =
-    new PixelStreamingApplicationStyle();
+	new PixelStreamingApplicationStyle();
 PixelStreamingApplicationStyles.applyStyleSheet();
 
-document.body.onload = function() {
+document.body.onload = function () {
 	// Example of how to set the logger level
 	// Logger.SetLoggerVerbosity(10);
 
@@ -21,5 +21,8 @@ document.body.onload = function() {
 		onColorModeChanged: (isLightMode) => PixelStreamingApplicationStyles.setColorMode(isLightMode)
 	});
 	// document.getElementById("centrebox").appendChild(application.rootElement);
+	const uiFeatures = application.rootElement.querySelector('#uiFeatures')
+	const controls = application.rootElement.querySelector('#controls')
+	uiFeatures.removeChild(controls)
 	document.body.appendChild(application.rootElement);
 }
