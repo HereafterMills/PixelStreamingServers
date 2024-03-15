@@ -8,6 +8,8 @@ body {
 	display: flex;
 	align-items: center;
 	height: 100vh;
+	color: #000;
+
 }
 
 form {
