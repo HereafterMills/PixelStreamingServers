@@ -1,0 +1,293 @@
+
+added 1 package, changed 1 package, and audited 323 packages in 2s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+up to date, audited 323 packages in 1s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> @epicgames-ps/lib-pixelstreamingfrontend-ui-ue5.3@1.0.1 build
+> npx webpack --config webpack.prod.js
+
+[1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
+[1m./src/Application/Application.ts[39m[22m [1m[32m327:36-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(327,37)
+      TS2339: Property 'allowClickToReconnect' does not exist on type '{ eventString: string; showActionOrErrorOnDisconnect: boolean; }'.[39m[22m
+ @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
+
+[1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
+[1m./src/Application/Application.ts[39m[22m [1m[32m369:68-84[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(369,69)
+      TS2339: Property 'wantedStreamerId' does not exist on type '{ messageStreamerList: MessageStreamerList; autoSelectedStreamerId: string; }'.[39m[22m
+ @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
+
+[1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
+[1m./src/Application/Application.ts[39m[22m [1m[32m715:43-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(715,44)
+      TS2339: Property 'isReconnecting' does not exist on type 'PixelStreaming'.[39m[22m
+ @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
+
+webpack compiled with [1m[31m3 errors[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
+[1m./src/Application/Application.ts[39m[22m [1m[32m327:36-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(327,37)
+      TS2339: Property 'allowClickToReconnect' does not exist on type '{ eventString: string; showActionOrErrorOnDisconnect: boolean; }'.[39m[22m
+ @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
+
+[1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
+[1m./src/Application/Application.ts[39m[22m [1m[32m369:68-84[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(369,69)
+      TS2339: Property 'wantedStreamerId' does not exist on type '{ messageStreamerList: MessageStreamerList; autoSelectedStreamerId: string; }'.[39m[22m
+ @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
+
+[1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
+[1m./src/Application/Application.ts[39m[22m [1m[32m715:43-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(715,44)
+      TS2339: Property 'isReconnecting' does not exist on type 'PixelStreaming'.[39m[22m
+ @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
+
+webpack compiled with [1m[31m3 errors[39m[22m
+
+up to date, audited 122 packages in 1s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Node directory found...skipping install.
+Node version: 
+v18.17.0
+Building frontend files...
+Node directory found...skipping install.
+Node version: 
+v18.17.0
+----------------------------
+Building frontend library...
+
+up to date, audited 580 packages in 2s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+1 moderate severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> @epicgames-ps/lib-pixelstreamingfrontend-ue5.3@1.0.1 build-dev
+> npx webpack --config webpack.dev.js
+
+assets by path [1m[32m../types/Inputs/*.ts[39m[22m 22.5 KiB 14 assets
+assets by path [1m[32m../types/PeerConnectionController/*.ts[39m[22m 14.7 KiB 11 assets
+assets by path [1m[32m../types/Util/*.ts[39m[22m 20.4 KiB 7 assets
+assets by path [1m[32m../types/Config/*.ts[39m[22m 15 KiB 6 assets
+assets by path [1m[32m../types/DataChannel/*.ts[39m[22m 7.55 KiB 6 assets
+assets by path [1m[32m../types/WebSockets/*.ts[39m[22m 8.73 KiB 4 assets
+assets by path [1m[32m../types/UeInstanceMessage/*.ts[39m[22m 3.77 KiB 4 assets
+assets by path [1m[32m../types/VideoPlayer/*.ts[39m[22m 3.41 KiB
+  asset [1m[32m../types/VideoPlayer/VideoPlayer.d.ts[39m[22m 2.53 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/VideoPlayer/StreamController.d.ts[39m[22m 906 bytes [1m[33m[compared for emit][39m[22m
+assets by path [1m[32m../types/FreezeFrame/*.ts[39m[22m 2.35 KiB
+  asset [1m[32m../types/FreezeFrame/FreezeFrameController.d.ts[39m[22m 1.32 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/FreezeFrame/FreezeFrame.d.ts[39m[22m 1.03 KiB [1m[33m[compared for emit][39m[22m
++ 8 assets
+runtime modules 937 bytes 4 modules
+cacheable modules 330 KiB
+  modules by path [1m./src/Inputs/*.ts[39m[22m 69.7 KiB 11 modules
+  modules by path [1m./src/PeerConnectionController/*.ts[39m[22m 33.2 KiB 9 modules
+  modules by path [1m./src/Util/*.ts[39m[22m 24 KiB 7 modules
+  modules by path [1m./src/Config/*.ts[39m[22m 33.4 KiB 6 modules
+  modules by path [1m./src/DataChannel/*.ts[39m[22m 12.3 KiB 6 modules
+  modules by path [1m./src/UeInstanceMessage/*.ts[39m[22m 15.2 KiB 4 modules
+  modules by path [1m./src/WebSockets/*.ts[39m[22m 17.6 KiB 4 modules
+  modules by path [1m./src/FreezeFrame/*.ts[39m[22m 7.21 KiB 2 modules
+  modules by path [1m./src/VideoPlayer/*.ts[39m[22m 9.17 KiB 2 modules
+  + 7 modules
+[1mexternal "sdp"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 6994 ms
+
+assets by path [1m[32m../types/Inputs/*.ts[39m[22m 22.5 KiB 14 assets
+assets by path [1m[32m../types/PeerConnectionController/*.ts[39m[22m 14.7 KiB 11 assets
+assets by path [1m[32m../types/Util/*.ts[39m[22m 20.4 KiB 7 assets
+assets by path [1m[32m../types/Config/*.ts[39m[22m 15 KiB 6 assets
+assets by path [1m[32m../types/DataChannel/*.ts[39m[22m 7.55 KiB 6 assets
+assets by path [1m[32m../types/WebSockets/*.ts[39m[22m 8.73 KiB 4 assets
+assets by path [1m[32m../types/UeInstanceMessage/*.ts[39m[22m 3.77 KiB 4 assets
+assets by path [1m[32m../types/VideoPlayer/*.ts[39m[22m 3.41 KiB
+  asset [1m[32m../types/VideoPlayer/VideoPlayer.d.ts[39m[22m 2.53 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/VideoPlayer/StreamController.d.ts[39m[22m 906 bytes [1m[33m[compared for emit][39m[22m
+assets by path [1m[32m../types/FreezeFrame/*.ts[39m[22m 2.35 KiB
+  asset [1m[32m../types/FreezeFrame/FreezeFrameController.d.ts[39m[22m 1.32 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/FreezeFrame/FreezeFrame.d.ts[39m[22m 1.03 KiB [1m[33m[compared for emit][39m[22m
++ 8 assets
+runtime modules 670 bytes 3 modules
+cacheable modules 330 KiB
+  modules by path [1m./src/Inputs/*.ts[39m[22m 69.7 KiB 11 modules
+  modules by path [1m./src/PeerConnectionController/*.ts[39m[22m 33.2 KiB 9 modules
+  modules by path [1m./src/Util/*.ts[39m[22m 24 KiB 7 modules
+  modules by path [1m./src/Config/*.ts[39m[22m 33.4 KiB 6 modules
+  modules by path [1m./src/DataChannel/*.ts[39m[22m 12.3 KiB 6 modules
+  modules by path [1m./src/UeInstanceMessage/*.ts[39m[22m 15.2 KiB 4 modules
+  modules by path [1m./src/WebSockets/*.ts[39m[22m 17.6 KiB 4 modules
+  modules by path [1m./src/FreezeFrame/*.ts[39m[22m 7.21 KiB 2 modules
+  modules by path [1m./src/VideoPlayer/*.ts[39m[22m 9.17 KiB 2 modules
+  + 7 modules
+[1mexternal "sdp"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 6972 ms
+
+up to date, audited 323 packages in 1s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+removed 1 package, changed 1 package, and audited 323 packages in 1s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> @epicgames-ps/lib-pixelstreamingfrontend-ui-ue5.3@1.0.1 build-dev
+> npx webpack --config webpack.dev.js
+
+assets by path [1m[32m../types/UI/*.ts[39m[22m 12.1 KiB
+  asset [1m[32m../types/UI/StatsPanel.d.ts[39m[22m 2.15 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/UI/FullscreenIcon.d.ts[39m[22m 2.08 KiB [1m[33m[compared for emit][39m[22m
+  + 10 assets
+assets by path [1m[32m../types/Overlay/*.ts[39m[22m 6.75 KiB
+  asset [1m[32m../types/Overlay/ActionOverlay.d.ts[39m[22m 1.03 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/Overlay/AFKOverlay.d.ts[39m[22m 931 bytes [1m[33m[compared for emit][39m[22m
+  + 7 assets
+assets by path [1m[32m../types/Config/*.ts[39m[22m 8.95 KiB
+  asset [1m[32m../types/Config/ConfigUI.d.ts[39m[22m 3.88 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/Config/SettingUINumber.d.ts[39m[22m 1.2 KiB [1m[33m[compared for emit][39m[22m
+  + 4 assets
++ 5 assets
+runtime modules 937 bytes 4 modules
+cacheable modules 145 KiB
+  modules by path [1m./src/UI/*.ts[39m[22m 54.6 KiB 12 modules
+  modules by path [1m./src/Overlay/*.ts[39m[22m 18 KiB
+    [1m./src/Overlay/DisconnectOverlay.ts[39m[22m 1.54 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 8 modules
+  modules by path [1m./src/Config/*.ts[39m[22m 27 KiB
+    [1m./src/Config/ConfigUI.ts[39m[22m 13.3 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 5 modules
+  + 4 modules
+[1mexternal "@epicgames-ps/lib-pixelstreamingfrontend-ue5.3"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "jss"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "jss-plugin-global"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "jss-plugin-camel-case"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 5289 ms
+
+assets by path [1m[32m../types/UI/*.ts[39m[22m 12.1 KiB
+  asset [1m[32m../types/UI/StatsPanel.d.ts[39m[22m 2.15 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/UI/FullscreenIcon.d.ts[39m[22m 2.08 KiB [1m[33m[compared for emit][39m[22m
+  + 10 assets
+assets by path [1m[32m../types/Overlay/*.ts[39m[22m 6.75 KiB
+  asset [1m[32m../types/Overlay/ActionOverlay.d.ts[39m[22m 1.03 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/Overlay/AFKOverlay.d.ts[39m[22m 931 bytes [1m[33m[compared for emit][39m[22m
+  + 7 assets
+assets by path [1m[32m../types/Config/*.ts[39m[22m 8.95 KiB
+  asset [1m[32m../types/Config/ConfigUI.d.ts[39m[22m 3.88 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32m../types/Config/SettingUINumber.d.ts[39m[22m 1.2 KiB [1m[33m[compared for emit][39m[22m
+  + 4 assets
++ 5 assets
+runtime modules 670 bytes 3 modules
+cacheable modules 145 KiB
+  modules by path [1m./src/UI/*.ts[39m[22m 54.6 KiB 12 modules
+  modules by path [1m./src/Overlay/*.ts[39m[22m 18 KiB
+    [1m./src/Overlay/DisconnectOverlay.ts[39m[22m 1.54 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 8 modules
+  modules by path [1m./src/Config/*.ts[39m[22m 27 KiB
+    [1m./src/Config/ConfigUI.ts[39m[22m 13.3 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 5 modules
+  + 4 modules
+[1mexternal "@epicgames-ps/lib-pixelstreamingfrontend-ue5.3"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "jss"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "jss-plugin-global"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[1mexternal "jss-plugin-camel-case"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 5268 ms
+End of build PS frontend lib step.
+----------------------------
+Building Epic Games reference frontend...
+
+removed 2 packages, and audited 367 packages in 2s
+
+55 packages are looking for funding
+  run `npm fund` for details
+
+4 vulnerabilities (3 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+added 2 packages, and audited 371 packages in 1s
+
+55 packages are looking for funding
+  run `npm fund` for details
+
+4 vulnerabilities (3 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> @epicgames-ps/reference-pixelstreamingfrontend-ue5.3@0.0.1 build-dev
+> npx webpack --config webpack.dev.js
+
+assets by status 9.44 KiB [1m[32m[cached][39m[22m 1 asset
+assets by status 88.3 KiB [1m[33m[compared for emit][39m[22m
+  assets by path [1m[32mimages/[39m[22m 72.7 KiB 6 assets
+  assets by path [1m[32m*.html[39m[22m 8.36 KiB
+    asset [1m[32mshowcase.html[39m[22m 2.17 KiB [1m[33m[compared for emit][39m[22m
+    + 4 assets
+  assets by path [1m[32mcss/*.css[39m[22m 5.49 KiB
+    asset [1m[32mcss/showcase.css[39m[22m 3.59 KiB [1m[33m[compared for emit][39m[22m [from: src/assets/css/showcase.css]
+    + 2 assets
+  asset [1m[32mlogin.js[39m[22m 1.68 KiB [1m[33m[compared for emit][39m[22m (name: login)
+assets by status 16.8 MiB [1m[32m[emitted][39m[22m
+  asset [1m[32mshowcase.js[39m[22m 4.58 MiB [1m[32m[emitted][39m[22m (name: showcase)
+  asset [1m[32mstresstest.js[39m[22m 4.56 MiB [1m[32m[emitted][39m[22m (name: stresstest)
+  asset [1m[32mplayer.js[39m[22m 4.55 MiB [1m[32m[emitted][39m[22m (name: player)
+  asset [1m[32muiless.js[39m[22m 3.09 MiB [1m[32m[emitted][39m[22m (name: uiless)
+runtime modules 3.66 KiB 16 modules
+cacheable modules 1.89 MiB
+  modules by path [1m../../[39m[22m 1.87 MiB
+    modules by path [1m../../ui-library/node_modules/[39m[22m 67.5 KiB 15 modules
+    modules by path [1m../../library/[39m[22m 1.28 MiB
+      [1m../../library/dist/lib-pixelstreamingfrontend.esm.js[39m[22m 1.25 MiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m../../library/node_modules/sdp/sdp.js[39m[22m 24.6 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m../../ui-library/dist/lib-pixelstreamingfrontend-ui.esm.js[39m[22m 535 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  modules by path [1m./src/*.ts[39m[22m 21.9 KiB
+    [1m./src/login.ts[39m[22m 52 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/player.ts[39m[22m 1.23 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/showcase.ts[39m[22m 12.5 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/stresstest.ts[39m[22m 7.09 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/uiless.ts[39m[22m 1.03 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 2946 ms
+End of build reference frontend step.
+----------------------------
+CoTURN directory found...skipping install.
+
+up to date, audited 122 packages in 869ms
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+nexe directory found...skipping install.

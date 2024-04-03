@@ -254,7 +254,7 @@ export class Config {
                 Flags.AutoConnect,
                 'Auto connect to stream',
                 'Whether we should attempt to auto connect to the signalling server or show a click to start prompt.',
-                false,
+                true,
                 useUrlParams
             )
         );

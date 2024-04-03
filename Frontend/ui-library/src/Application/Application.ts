@@ -378,8 +378,51 @@ export class Application {
             ({ data: { count }}) => 
                 this.onPlayerCount(count)
         );
-    }
+        this.stream.addResponseEventListener("handle_responses", (response: string) => {
+            console.log("Response Recieved");
 
+            // Parse the response string as JSON to access its properties
+            const parsedResponse = JSON.parse(response);
+            const responseMode = parsedResponse["mode"];
+
+            // Ensure that the switch cases are correctly separated and actions are properly defined
+            switch(responseMode) {
+                case "download_by_link":
+                    // Handle the case for "download_by_link"
+                    const responseLink = parsedResponse["link"];
+                    console.log("Download link received:", responseLink);
+
+                    // Create a function to trigger the download
+                    const triggerDownload = (downloadUrl: string) => {
+                        // Create an anchor element
+                        const anchorElement = document.createElement('a');
+                        anchorElement.href = downloadUrl;
+
+                        // Optional: Provide a default file name for the download
+                        // This attribute can be omitted or customized based on the file being downloaded
+                        anchorElement.download = "downloadedFile";
+
+                        // Append the anchor element to the body (it does not have to be visible)
+                        document.body.appendChild(anchorElement);
+
+                        // Programmatically click the anchor to trigger the download
+                        anchorElement.click();
+
+                        // Remove the anchor element after triggering the download
+                        document.body.removeChild(anchorElement);
+                    };
+
+                    // Call the function with the download link
+                    triggerDownload(responseLink);
+
+                    break;
+                    
+                default:
+                    // It's a good practice to handle unexpected cases
+                    console.log("Received an unknown mode:", responseMode);
+            }
+        })
+    }
     /**
      * Gets the rootElement of the application, video stream and all UI are children of this element.
      */
