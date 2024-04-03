@@ -364,7 +364,7 @@ export class Config {
                 Flags.MatchViewportResolution,
                 'Match viewport resolution',
                 'Pixel Streaming will be instructed to dynamically resize the video stream to match the size of the video element.',
-                false,
+                true,
                 useUrlParams
             )
         );
@@ -524,7 +524,7 @@ export class Config {
                 'The maximum FPS that WebRTC will try to transmit frames at.',
                 1 /*min*/,
                 999 /*max*/,
-                60 /*value*/,
+                24 /*value*/,
                 useUrlParams
             )
         );

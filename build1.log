@@ -1,5 +1,5 @@
 
-added 1 package, changed 1 package, and audited 323 packages in 2s
+added 1 package, changed 1 package, and audited 323 packages in 1s
 
 52 packages are looking for funding
   run `npm fund` for details
@@ -29,8 +29,8 @@ found 0 vulnerabilities
  @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
 
 [1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
-[1m./src/Application/Application.ts[39m[22m [1m[32m715:43-57[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(715,44)
+[1m./src/Application/Application.ts[39m[22m [1m[32m716:43-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(716,44)
       TS2339: Property 'isReconnecting' does not exist on type 'PixelStreaming'.[39m[22m
  @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
 
@@ -49,8 +49,8 @@ webpack compiled with [1m[31m3 errors[39m[22m
  @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
 
 [1m[31mERROR[39m[22m in [1mD:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts[39m[22m
-[1m./src/Application/Application.ts[39m[22m [1m[32m715:43-57[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(715,44)
+[1m./src/Application/Application.ts[39m[22m [1m[32m716:43-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Projects\PitchPalette_PixelStreamingServers\Frontend\ui-library\src\Application\Application.ts(716,44)
       TS2339: Property 'isReconnecting' does not exist on type 'PixelStreaming'.[39m[22m
  @ ./src/pixelstreamingfrontend-ui.ts 2:0-56 2:0-56
 
@@ -114,7 +114,7 @@ cacheable modules 330 KiB
   modules by path [1m./src/VideoPlayer/*.ts[39m[22m 9.17 KiB 2 modules
   + 7 modules
 [1mexternal "sdp"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 6994 ms
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 5498 ms
 
 assets by path [1m[32m../types/Inputs/*.ts[39m[22m 22.5 KiB 14 assets
 assets by path [1m[32m../types/PeerConnectionController/*.ts[39m[22m 14.7 KiB 11 assets
@@ -143,7 +143,7 @@ cacheable modules 330 KiB
   modules by path [1m./src/VideoPlayer/*.ts[39m[22m 9.17 KiB 2 modules
   + 7 modules
 [1mexternal "sdp"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 6972 ms
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 5479 ms
 
 up to date, audited 323 packages in 1s
 
@@ -189,7 +189,7 @@ cacheable modules 145 KiB
 [1mexternal "jss"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
 [1mexternal "jss-plugin-global"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
 [1mexternal "jss-plugin-camel-case"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 5289 ms
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 4131 ms
 
 assets by path [1m[32m../types/UI/*.ts[39m[22m 12.1 KiB
   asset [1m[32m../types/UI/StatsPanel.d.ts[39m[22m 2.15 KiB [1m[33m[compared for emit][39m[22m
@@ -218,7 +218,7 @@ cacheable modules 145 KiB
 [1mexternal "jss"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
 [1mexternal "jss-plugin-global"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
 [1mexternal "jss-plugin-camel-case"[39m[22m 42 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 5268 ms
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 4110 ms
 End of build PS frontend lib step.
 ----------------------------
 Building Epic Games reference frontend...
@@ -272,19 +272,19 @@ cacheable modules 1.89 MiB
     modules by path [1m../../library/[39m[22m 1.28 MiB
       [1m../../library/dist/lib-pixelstreamingfrontend.esm.js[39m[22m 1.25 MiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
       [1m../../library/node_modules/sdp/sdp.js[39m[22m 24.6 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [1m../../ui-library/dist/lib-pixelstreamingfrontend-ui.esm.js[39m[22m 535 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m../../ui-library/dist/lib-pixelstreamingfrontend-ui.esm.js[39m[22m 536 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
   modules by path [1m./src/*.ts[39m[22m 21.9 KiB
     [1m./src/login.ts[39m[22m 52 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
     [1m./src/player.ts[39m[22m 1.23 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
     [1m./src/showcase.ts[39m[22m 12.5 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
     [1m./src/stresstest.ts[39m[22m 7.09 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
     [1m./src/uiless.ts[39m[22m 1.03 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 2946 ms
+webpack 5.76.0 compiled [1m[32msuccessfully[39m[22m in 2579 ms
 End of build reference frontend step.
 ----------------------------
 CoTURN directory found...skipping install.
 
-up to date, audited 122 packages in 869ms
+up to date, audited 122 packages in 850ms
 
 15 packages are looking for funding
   run `npm fund` for details

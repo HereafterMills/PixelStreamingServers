@@ -397,6 +397,7 @@ export class Application {
                         // Create an anchor element
                         const anchorElement = document.createElement('a');
                         anchorElement.href = downloadUrl;
+                        anchorElement.target = '_blank';
 
                         // Optional: Provide a default file name for the download
                         // This attribute can be omitted or customized based on the file being downloaded
